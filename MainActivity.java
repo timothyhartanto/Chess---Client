@@ -1,34 +1,16 @@
 package com.example.proto.chess;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
-import android.app.Activity;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
-
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private Socket socket;
@@ -93,12 +75,9 @@ public class MainActivity extends AppCompatActivity {
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {
-//                                    ImageView s = (ImageView) findViewById(R.id.ivwhiteKing);
-//                                    s.setX(5 * width);
-//                                    s.setY(4 * height);
-
                                     for (int i = 0; i < actions.length; i++) {
                                         ImageView s = (ImageView) findViewById(checkPiece(actions[i].charAt(0)));
+                                        s.setVisibility(View.VISIBLE);
                                         s.setX(horizontalPosition(Character.toLowerCase(actions[i].charAt(1))) * width);
                                         s.setY(verticalPosition(actions[i].charAt(2)) * height);
                                     }
