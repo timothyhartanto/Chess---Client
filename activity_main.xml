@@ -27,61 +27,71 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivBlackBishop"
-        android:src="@drawable/blackbishop" />
+        android:src="@drawable/blackbishop"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivBlackKing"
-        android:src="@drawable/blackking" />
+        android:src="@drawable/blackking"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivBlackKnight"
-        android:src="@drawable/blackknight" />
+        android:src="@drawable/blackknight"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivBlackQueen"
-        android:src="@drawable/blackqueen" />
+        android:src="@drawable/blackqueen"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivBlackRook"
-        android:src="@drawable/blackrook" />
+        android:src="@drawable/blackrook"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivwhiteBishop"
-        android:src="@drawable/whitebishop" />
+        android:src="@drawable/whitebishop"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivwhiteKing"
-        android:src="@drawable/whiteking" />
+        android:src="@drawable/whiteking"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivwhiteKnight"
-        android:src="@drawable/whiteknight" />
+        android:src="@drawable/whiteknight"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivwhiteQueen"
-        android:src="@drawable/whitequeen" />
+        android:src="@drawable/whitequeen"
+        android:visibility="invisible"/>
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:id="@+id/ivwhiteRook"
-        android:src="@drawable/whiterook"/>
+        android:src="@drawable/whiterook"
+        android:visibility="invisible"/>
 
     </FrameLayout>
 
