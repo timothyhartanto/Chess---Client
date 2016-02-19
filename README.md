@@ -1,6 +1,6 @@
 # Chess---Client
 Create a simple chess app that get the pieces' movement from the server.
-
+(For the server sample code: https://github.com/timothyhartanto/Chess---Server)
 
 Piece position format: <piece code><horizontal position><vertical position>[space]<piece code><horizontal position><vertical position>[space]<piece code><horizontal position><vertical position> etc...
 
