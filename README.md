@@ -22,12 +22,12 @@ Ka1 Qg3 Be6 Ne4 Rd1 kg6 qa4 bf5 ng1 rf3
 
 
 And the board format as follow:
-8
-7
-6         B   K
-5           b
-4 q       N
-3           r Q
-2
-1 K     R     n
-  a b c d e f g h
+8 <br />
+7<br />
+6         B   K <br />
+5           b <br />
+4 q       N <br />
+3           r Q <br />
+2 <br />
+1 K     R     n <br />
+  a b c d e f g h <br />
