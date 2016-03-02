@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.ivBlackKing, R.id.ivBlackQueen, R.id.ivBlackKnight, R.id.ivBlackBishop, R.id.ivBlackRook};
 
     private static final int SERVERPORT = 8181;
-    private static final String SERVER_IP = "192.168.131.1"; //"xinuc.org";
+    private static final String SERVER_IP = "xx.xx.xx.xx"; //for testing with Chess--Server, use your router IP"xinuc.org";
 
     ImageView board;
     int height, width;
